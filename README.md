@@ -1,3 +1,5 @@
+## First Segment
+
 The topic for this project is California wildfires. My team and I will find data in regards to California wildfires from years 2013 to 2020. With this data, my team will be able to predict when will the next wildfires occur in California for year 2021.
 
 For this project, the dashboard will be built by using two tools: Pandas and GitHub. Pandas will be the tool used for data cleaning. GitHub is a tool for saving our work as we develop the project. GitHub will keep track of our work over time. Using these two tools will improve teammates communication while working on this project to complete the dashboard in a timely manner.  
