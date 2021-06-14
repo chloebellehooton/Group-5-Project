@@ -6,16 +6,18 @@ Objective of the project is to find correlation between California wildfire and 
 
 ## Techniques
 
-1.ETL tools/methods like python pandas, postgres db will be used to extract data,cleanse and transform data and laod.
-2.Machine Learning models to analyze if  California Wildfire can be predicted based on weather condition
+1.ETL tools/methods like python pandas, postgres db will be used to extract data,cleanse and transform data and load.
+2.Machine Learning models to analyze if  California Wildfire can be predicted based on weather conditions.
 
 ## ML Mock Up Plan
+
 ETL process will be performed on California wildfire dataset(extracted from kaggle) and weather dataset of the counties(extracted from : https://www.ncdc.noaa.gov/cdo-web/search)  which is recorded in wildfire dataset.
 
 ML models RandomForestClassifier & GradientBoostingClassifier algorithms will be tested and best model will be finalized.
 Also will check if  Deep Neutral Network model is feasible.
 
 WILDFIRE Dataset has information 
+
 1.Acres Burned
 2.Personnel Involed
 3.Structures Damaged
