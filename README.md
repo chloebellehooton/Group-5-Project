@@ -58,7 +58,9 @@ Apart from that all four of us group mates residing at Caliornia also have equal
 ## Techniques
 
 1.ETL tools/methods like python pandas, postgres db will be used to extract data,cleanse and transform data and load.
+
 2.Machine Learning models in python will be used to analyze if California Wildfire can be predicted based on weather conditions.
+
 3.Tableau will be used to create the dashbroad and create stories.
 
 ## ML Mock Up Plan
