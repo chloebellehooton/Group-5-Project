@@ -20,5 +20,5 @@ These information can be used predict if its a large wildfire.
 
 Corelating above data with weather information like Precipitaion,Temperature and Wind speed , ML will learn and predict wildfire.
 
-
+Mockup Script is added at https://github.com/chloebellehooton/Group-5-Project/blob/merin_anto/ML_MOCK_UP_Script.ipynb
 
