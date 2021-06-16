@@ -54,7 +54,6 @@ Apart from that all four of us group mates residing at California also have equa
   - TMIN - Minimum temperature
   - PRCP - Precipitation
 
-
 ## Techniques
 
 1.ETL tools/methods like python pandas, postgres db will be used to extract data, cleanse and transform data and load.
@@ -105,3 +104,32 @@ The database for this project will be: Entity Relationship Diagram (ERD), Postgr
 
 Data sources used to find data for this project is Kaggle.com, Data.gov, climate.gov, and weather.gov. In regards to teams, Chloe Belle Hooton will take on the Square role. Kaitlin Rockway, Merin Anto, and I will switch roles each week between the Circle role, Triangle role, and X role to have a fair amount of work for all three of us to complete throughout this project. 
 
+### ERD
+
+Simplified (only necessary columns included):
+![ERD_Simple](https://github.com/chloebellehooton/Group-5-Project/blob/krockway/Images/ERD_Simple.png)
+
+Full:
+![ERD_Full](https://github.com/chloebellehooton/Group-5-Project/blob/krockway/Images/ERD_Full.png)
+
+### Data Cleansing Process
+1. Combine all County data into 1 table
+2. Link the wildfire data to the county data using latitude and longitude
+
+**************************************************************** Note from Kaitlin: If there is a more efficient way to gather this data, I'm certainly open. The site limits you to 1000 records of data per report, so this seemed like a solution. Also open to other data sources ****************************************************************
+
+#### How to Extract County Data
+
+1. Visit https://www.ncdc.noaa.gov/cdo-web/search
+2. Input the search criteria
+![Page1](https://github.com/chloebellehooton/Group-5-Project/blob/krockway/Reference_DownloadCountyData/Page1.png)
+3. Add county to cart
+![Page2](https://github.com/chloebellehooton/Group-5-Project/blob/krockway/Reference_DownloadCountyData/Page2.png)
+4. Select criteria. Continue.
+![Page3](https://github.com/chloebellehooton/Group-5-Project/blob/krockway/Reference_DownloadCountyData/Page3.png)
+5. Select criteria. Continue.
+![Page4a](https://github.com/chloebellehooton/Group-5-Project/blob/krockway/Reference_DownloadCountyData/Page4a.png)
+![Page4b](https://github.com/chloebellehooton/Group-5-Project/blob/krockway/Reference_DownloadCountyData/Page4b.png)
+6. Input email address. Submit order.
+7. You'll receive an email notice that the order is in process.
+8. A few minutes later, you'll receive a link to download the CSV file.
