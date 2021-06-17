@@ -1,12 +1,12 @@
 # Group-5-Project
-Shared repository for Group 5 Final Project
+Shared repository for the Group 5 Final Project
 
 ## Topic of the Project.
 Correlation between California wildfire and weather conditions.
 
 ## Reason for Selection of Topic
 
-California wildfires cost the US economy almost 0.7% of the country’s annual GDP , of which $45.9bn was lost outside the state,also substantial morbidity/mortality.
+California wildfires cost the US economy almost 0.7% of the country’s annual GDP , of which $45.9bn was lost outside the state, also substantial morbidity/mortality.
 Predicting the frequency of fires can help with emergency planning and proactive disaster risk management.
 Apart from that all four of us group mates residing at California also have equal interest and anxiety for the cause.
 
