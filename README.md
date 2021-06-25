@@ -133,3 +133,6 @@ Full:
 6. Input email address. Submit order.
 7. You'll receive an email notice that the order is in process.
 8. A few minutes later, you'll receive a link to download the CSV file.
+
+### Visualizations
+Link: https://public.tableau.com/app/profile/chloe.belle.hooton/viz/GroupProject_draft1/HeatMap-AcresBurned
