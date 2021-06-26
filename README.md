@@ -136,3 +136,12 @@ Full:
 
 ### Visualizations
 Link: https://public.tableau.com/app/profile/chloe.belle.hooton/viz/GroupProject_draft1/HeatMap-AcresBurned
+
+Link: https://public.tableau.com/app/profile/tahira3223/viz/MaxTemperaturesbyColor/MaxTemperaturesbyColor
+
+Link: https://public.tableau.com/app/profile/tahira3223/viz/Precipitationvs_AcresBurnedperYear/Precipitationvs_AcresBurnedperYear
+
+Link: https://public.tableau.com/app/profile/tahira3223/viz/Damagedvs_DestroyedperYear/Damagedvs_DestroyedperYear
+
+Link: https://public.tableau.com/app/profile/tahira3223/viz/Top15MaximumDamagedvs_DestroyedCounties/Top15MaximumDamagedvs_DestroyedCounties
+
