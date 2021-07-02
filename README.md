@@ -137,6 +137,8 @@ Full:
 ### Visualizations
 Link: https://public.tableau.com/app/profile/chloe.belle.hooton/viz/GroupProject_draft1/HeatMap-AcresBurned
 
+Link: https://public.tableau.com/views/Group-5-Project/AcresbyQ-Napa?:language=en-US&:display_count=n&:origin=viz_share_link
+
 Link: https://public.tableau.com/app/profile/tahira3223/viz/MaxTemperaturesbyColor/MaxTemperaturesbyColor
 
 Link: https://public.tableau.com/app/profile/tahira3223/viz/Precipitationvs_AcresBurnedperYear/Precipitationvs_AcresBurnedperYear
