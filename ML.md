@@ -35,7 +35,7 @@ Mockup Script is added at https://github.com/chloebellehooton/Group-5-Project/bl
 
 ## Model used
 
-### Unsuperlearning Model
+### Unsupervisedlearning Model
 
 #### K-means algorithm is used to cluster the wildfires using the PCA data
 
@@ -50,5 +50,24 @@ Mockup Script is added at https://github.com/chloebellehooton/Group-5-Project/bl
  
  #### Summary of Analysis
  
+ 1. Elbow curve is created :- https://github.com/chloebellehooton/Group-5-Project/blob/merin_anto/Wildfire_Cluster_Elbow_curve.png
+ 
+ 2. 4 Clusters are formed 
+    ![image](https://github.com/chloebellehooton/Group-5-Project/blob/merin_anto/Wildfire_Cluster_3d.png)
+ 
+ ### Supervisedlearning Model
+ 
+ Classified very large fires as where acers burned greater than 10000
+ 
+ RandomForestClassifier , GradientBoostingClassifier & EasyEnsembleClassifier will be used to predict the large wildfire.
+ 
+ EasyEnsembleClassifier is having good prediction of  more large wildfire.
+ 
+ 
+ 
+  
+  
+    
+    
  
  
