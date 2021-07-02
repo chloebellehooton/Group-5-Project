@@ -31,3 +31,24 @@ Corelating above data with weather information like Precipitaion,Temperature and
 
 Mockup Script is added at https://github.com/chloebellehooton/Group-5-Project/blob/merin_anto/ML_MOCK_UP_Script.ipynb
 
+## Update in Machine Learning Model
+
+## Model used
+
+### Unsuperlearning Model
+
+#### K-means algorithm is used to cluster the wildfires using the PCA data
+
+1. Inputs used 
+   
+   - Maximium Temperature 
+   - Cumulative sum of precipitation
+  
+ 2. Pre processing done using the script :- https://github.com/chloebellehooton/Group-5-Project/blob/main/Clustering_wildfires_ML-Preprocessing.ipynb
+  
+ 3. K-means algorithm is implented using the script:- https://github.com/chloebellehooton/Group-5-Project/blob/main/Clustering_ML.ipynb
+ 
+ #### Summary of Analysis
+ 
+ 
+ 
