@@ -145,3 +145,5 @@ Link: https://public.tableau.com/app/profile/tahira3223/viz/Damagedvs_Destroyedp
 
 Link: https://public.tableau.com/app/profile/tahira3223/viz/Top15MaximumDamagedvs_DestroyedCounties/Top15MaximumDamagedvs_DestroyedCounties
 
+Link: https://public.tableau.com/app/profile/tahira3223/viz/California_County_Population/County_Population
+
