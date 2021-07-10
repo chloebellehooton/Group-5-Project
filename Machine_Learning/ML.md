@@ -64,8 +64,8 @@ Mockup Script is added at https://github.com/chloebellehooton/Group-5-Project/bl
  2. Pre processing done using the script :- https://github.com/chloebellehooton/Group-5-Project/blob/merin_anto/Machine_Learning/Clustering_wildfires_ML-Preprocessing.ipynb
     In the pre processing script below steps are taken care.
     1. Data cleansing for ML , 
-    2. Calculation rolling sum of precipiation in the postres DB( SQL QUERY 
-       (SQL Query Details:-https://github.com/chloebellehooton/Group-5-Project/blob/merin_anto/Machine_Learning/rolling_sum_precipitation.sql)
+    2. Calculation rolling sum of precipiation in the postres DB
+       SQL Query Details:-https://github.com/chloebellehooton/Group-5-Project/blob/merin_anto/Machine_Learning/rolling_sum_precipitation.sql
     3. Merged wildfire and weather data + weather data as required for ML.
     4. Created a copy in local folder.
   
