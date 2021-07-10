@@ -43,10 +43,11 @@ Mockup Script is added at https://github.com/chloebellehooton/Group-5-Project/bl
    
    - Maximium Temperature 
    - Cumulative sum of precipitation
+
   
  2. Pre processing done using the script :- https://github.com/chloebellehooton/Group-5-Project/blob/main/Clustering_wildfires_ML-Preprocessing.ipynb
   
- 3. K-means algorithm is implented using the script:- https://github.com/chloebellehooton/Group-5-Project/blob/main/Clustering_ML.ipynb
+ 3. K-means algorithm is implmented using the script:- https://github.com/chloebellehooton/Group-5-Project/blob/main/Clustering_ML.ipynb
  
  #### Summary of Analysis
  
@@ -62,6 +63,84 @@ Mockup Script is added at https://github.com/chloebellehooton/Group-5-Project/bl
  RandomForestClassifier , GradientBoostingClassifier & EasyEnsembleClassifier will be used to predict the large wildfire.
  
  EasyEnsembleClassifier is having good prediction of  more large wildfire.
+ 
+ 
+
+ ## Machine Learning Model
+  
+ ### Feature Engineering/Selection
+ 
+ After intial analyis of the data, team decided to run an unsupervised machine learning on the merged wildfire + weather information 
+ so that the weather , county  & month of the year  will help to predict whether wildfire belong which cluster/class.
+ Later during the analysis it was derived  as though clusters are formed, discrete clusters are not formed.Hence as a different approach Supervised 
+ Machine learning models is used predict the large wildfires where acers burned greater than 10000.
+ 
+ ### Unsupervisedlearning Model
+
+ #### K-means algorithm is used to cluster the wildfires using the PCA data
+ 
+ 1. Inputs used 
+   
+   - Maximium Temperature 
+   - Cumulative sum of precipitation
+   - County 
+   - Month of the year
+   - Acres burned
+  
+ 2. Pre processing done using the script :- https://github.com/chloebellehooton/Group-5-Project/blob/main/Clustering_wildfires_ML-Preprocessing.ipynb
+  
+ 3. K-means algorithm is implented using the script:- https://github.com/chloebellehooton/Group-5-Project/blob/main/Clustering_ML.ipynb
+
+ #### Summary of Analysis
+ 
+ 1. Elbow curve is created :- https://github.com/chloebellehooton/Group-5-Project/blob/merin_anto/Wildfire_Cluster_Elbow_curve.png
+ 
+ 2. 4 Clusters are formed 
+    ![image](https://github.com/chloebellehooton/Group-5-Project/blob/merin_anto/Wildfire_Cluster_3d.png)
+    
+ 3. From clusters maximum temperature,precipitation received till the month , month of the year & county(location) has relation with acres burned,but clusters were not discrete
+    Analysis of clusters shows some unaccounted factors also exist like  wind,lighting, human activities,PG&E power lines issues  .
+ 
+ ## Supervisedlearning Model
+ 
+ ### Analysis
+ 
+ In this analysis wildfires where acres burned greater than 10000 are classified very large fires.
+ 
+   - Among 1486 records , 79 records was having acres burned greater than 10000
+ 
+   - Dataset was split into training and test set using module train_test_split from sklearn.
+ 
+ RandomForestClassifier , GradientBoostingClassifier & EasyEnsembleClassifier models are used to predict the large wildfire.
+ 
+ ### Summary Of Analysis
+ 
+ Among the models RandomForestClassifier & GradientBoostingClassifier has good accuracy scores.
+  
+  - RandomForestClassifier Model Report
+ 
+   ![image](https://github.com/chloebellehooton/Group-5-Project/blob/main/Wildfire_Supervised_ML_very_large_fire.png)
+    
+  - GradientBoostingClassifier Report
+   ![image](https://github.com/chloebellehooton/Group-5-Project/blob/main/Wildfire_Supervised_ML_very_large_fire_gradientboost.png)
+ 
+  EasyEnsembleClassifier has low accuracy store compared to other two models.But in predicting the large wildfires EasyEnsembleClassifier withmoreaccurcay.
+  
+   ![image](https://github.com/chloebellehooton/Group-5-Project/blob/main/Wildfire_Supervised_ML_very_large_fire_easyensemble.png)
+  
+  
+  ### Tail End 
+  
+  Supervised models are used to predict when wildfires go beyond usual natural level(acers burned greater than 221)
+  But classification reports showed the models are not as good in predicting the wildfires for acers greater than 221 as very large wildfires (acres burned greater than 10000).
+  Factors like wind,lighting, human activities,PG&E power lines issues are not considered in the model.That can be a reason the models are not performing well.
+  
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
