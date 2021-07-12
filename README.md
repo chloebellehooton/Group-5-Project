@@ -107,10 +107,11 @@ For our supervised machine learning model, we hope to predict the large wildfire
  3. From clusters maximum temperature, precipitation received for the month of the year & county (location) has relation with acres burned, but clusters were not discrete. Analysis of clusters shows some unaccounted factors also exist like wind, lightning, human activities, and/or PG&E power lines issues.
 
 4. Benefits of K-means Clustering Algorithm is to analyze the entire dataset without choosing the target and feature or input variables.But disadvantage is there is always a chance analysis won’t give any fruitful conclusions. Below list a few disadvantages.
- 1 .Choosing k means correctly.
- 2. Clustering data of varying sizes and density.
- 3. Clustering outliers.
- 4. Scaling with a number of dimensions.
+
+   1.Choosing k means correctly.
+   2. Clustering data of varying sizes and density.
+   3. Clustering outliers.
+   4. Scaling with a number of dimensions.
 
   
  
